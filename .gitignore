@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output folders
+bin/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editor & IDE files
+.vscode/
+.idea/
+*.swp
+
+# MacOS
+.DS_Store
+
+# Go workspace files
+go.sum
