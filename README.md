@@ -2,6 +2,21 @@
 
 **TrashAway** adalah CLI tool ringan berbasis Go untuk membersihkan folder sampah seperti `node_modules`, `vendor`, `build`, dan lainnya dari berbagai proyek seperti Flutter, Laravel, Next.js, dan Node.js.
 
+
+TrashAway adalah tool sederhana dan ringan untuk membersihkan folder sampah dari berbagai proyek seperti:
+- Flutter / Dart (build/, .dart_tool/)
+- Node.js / Next.js (node_modules/)
+- Laravel / PHP (vendor/)
+- Dan banyak lagi!
+
+## ✨ Fitur Utama
+🔍 Scan otomatis berdasarkan file marker proyek (package.json, composer.json, dll.)
+🚀 Konfirmasi sebelum penghapusan
+⚡ Menggunakan Go Concurrency untuk proses lebih cepat
+📊 Estimasi total size yang akan dihapus
+🎯 Bisa pilih folder mana yang ingin dikecualikan dari penghapusan
+🎨 Tampilan CLI warna-warni agar lebih friendly
+
 ## 📸 Demo Penggunaan
 
 ### ✅ 1. Masukkan folder utama yang ingin discan
